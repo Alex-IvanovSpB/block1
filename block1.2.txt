@@ -1,0 +1,25 @@
+for i in "Hello world":
+ print (i*2, end = ' ')
+
+
+str = "Hello world"
+print (str)
+res_str = str.replace ('l','',1)
+print (res_str)
+
+
+for i in "Hello world": 
+ if i == 'С':
+  braek
+else:
+    print ('Этой буквы в строке нет')
+
+str = "Hello world"
+l = len (str)
+print (l) 
+
+
+str = "Hello world"
+l = len (str)
+remove_last = str [:l-1]
+print (remove_last)
