@@ -1,0 +1,50 @@
+want = input("Какую операцию необходимо провести (+,-,/,*,^,m,f,0,a) :")
+if want == '+':
+    a = float(input('Введите первое число :'))
+    b = float(input("Введите второе число :"))
+    c = a + b
+    print(c)
+elif want == '-':
+    a = float(input('Введите первое число :'))
+    b = float(input("Введите второе число :"))
+    c = a - b
+    print(c)
+elif want == '/':
+   a = float(input('Введите первое число :'))
+   b = float(input("Введите второе число :"))
+   if  b == 0:
+       print ('На ноль делить нельзя!')  
+   else:
+     c = a / b
+     print(c)
+   
+    
+elif want == '*':
+    a = float(input('Введите первое число :'))
+    b = float(input("Введите второе число :"))
+    c = a * b
+    print(c)
+elif want == '^':
+    a = float(input('Введите первое число :'))
+    b = float(input("Введите второе число :"))
+    c = a ** b
+    print (c)
+elif want == 'm':
+    a = float(input('Введите число :'))
+    a = abs (a)
+    print (a)
+elif want == 'f':
+    import math
+    p = int(input('Факториал числа: '))
+    res = math.factorial(p)
+    print(res)
+elif want == '0':
+    import random
+    print(random.randint(1, 1000))
+elif want == 'a':
+     import math
+     n = float(input('Введите  число :'))
+     n_rad = n*math.pi/180
+     ac = math.acos(n_rad)
+     print('ac = ', ac)
+print('Подсчет выполнен!')
