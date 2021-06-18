@@ -1,0 +1,7 @@
+def calc():
+    while (True):
+        req = input ("Введите числа и действие :")
+        if req == "":
+            break
+        print (req + "=" +str(eval(req)))
+calc (
